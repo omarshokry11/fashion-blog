@@ -1,0 +1,93 @@
+.main-title-heading-content
+{
+    .main-title-heading-container{
+        background-color: #FFFFFF;
+        padding: 8px 16px;
+        margin-bottom: 25px;
+        @media (max-width: 768px) {
+            border: none;
+        }
+        .title
+        {
+            margin: 20px 0;
+            h3{
+                font-size: 20px;
+                font-weight: 500;
+                margin: 10px 0;
+                @media (max-width: 280px) {
+                    font-size: 15px;
+                }
+            }
+            h5
+            {
+                font-size: 17px;
+                font-weight: 500;
+                @media (max-width: 280px) {
+                    font-size: 12px;
+                }
+                span{
+                    opacity: .6;
+                }
+            }
+        }
+        .img
+        {
+            margin: 10px 0 20px;
+            img{
+                width: 100%;
+            }
+        }
+        .details
+        {
+            p
+            {
+                font-size: 15px;
+                line-height: 1.8;
+                @media (max-width: 700px) {
+                    font-size: 11px;
+                }
+                strong{
+                    font-weight: bolder;
+                }
+            }
+            .buttons
+            {
+                position: relative;
+                margin: 30px 0 50px;
+                button{
+                    font-size: 18px;
+                    font-weight: 500;
+                    border: 1px solid #cccccc;
+                    border-radius: 5px;
+                    padding: 5px 20px;
+                    color: #000000;
+                    background-color: #FFFFFF;
+                    transition: all .5s;
+                    &:hover{
+                        background-color: #cccccc;
+                    }
+                    @media (max-width: 280px) {
+                        padding: 5px 12px;
+                    }
+                }
+                .replies
+                {
+                    position: absolute;
+                    right: 0;
+                    background-color: #000000;
+                    color: #FFFFFF;
+                    &:hover{
+                        color: #000000;
+                    }
+                    span{
+                        display: inline-block;
+                        padding: 0 8px;
+                        text-align: center;
+                        background-color: #FFFFFF;
+                        color: #000000;
+                    }
+                }
+            }
+        }
+    }
+}

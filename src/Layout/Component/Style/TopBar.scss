@@ -1,0 +1,30 @@
+.main-top-bar-container
+{
+    background-color: #000000;
+    color: #FFF;
+    position: relative;
+    .social
+    {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        li{
+            display: inline-block;
+            padding: 8px 16px;
+            cursor: pointer;
+            transition: all .5s;
+            &:hover{
+                background-color: #f1f1f1;
+                color: #000000;
+            }
+            @media (max-width: 350px) {
+                padding: 8px 10px;
+            }
+        }
+        .search{
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+    }
+}

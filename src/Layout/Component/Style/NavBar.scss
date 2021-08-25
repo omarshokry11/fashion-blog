@@ -1,0 +1,29 @@
+.main-navbar-container
+{
+    text-align: center;
+    padding: 48px 0;
+    background-color: #FFFFFF;
+    h1{
+        font-size: 48px;
+        font-weight: 700;
+        @media (max-width: 768px) {
+            font-size: 30px;
+        }
+    }
+    h6
+    {
+        margin: 10px 0;
+        font-size: 15px;
+        font-weight: 500;
+        @media (max-width: 500px) {
+            font-size: 10px;
+        }
+        span{
+            font-weight: normal;
+            display: inline-block;
+            padding: 2px 8px;
+            background-color: #000000;
+            color: #FFFFFF;
+        }
+    }
+}
